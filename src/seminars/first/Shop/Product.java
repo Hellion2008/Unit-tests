@@ -20,4 +20,9 @@ public class Product {
     public void setTitle(String title) {
         this.title = title;
     }
+
+    public Product(Integer cost, String title) {
+        this.cost = cost;
+        this.title = title;
+    }
 }
