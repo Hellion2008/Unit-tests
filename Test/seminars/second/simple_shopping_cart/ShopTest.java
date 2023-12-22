@@ -213,7 +213,10 @@ class ShopTest {
 
     @Test
     void testSUM() {
+        cart.addProductToCartByID(2); // 250
+        cart.addProductToCartByID(2); // 250
 
+        assertThat(cart.getTotalPrice()).isEqualTo(250+250);
     }
 
     /**
