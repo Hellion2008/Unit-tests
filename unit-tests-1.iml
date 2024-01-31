@@ -87,4 +87,7 @@
     </orderEntry>
     <orderEntry type="library" exported="" name="async-http-client-2.12.3" level="project" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="fc61060a-66fd-41fa-8a07-3ec64d97c992" />
+  </component>
 </module>
